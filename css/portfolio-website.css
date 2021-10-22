@@ -170,6 +170,10 @@ h2 {
         height: 15em;
         width: auto;
     }
+    .imgshadow {
+        height: 15em;
+        width: auto;
+    }
 }
 
 @media screen and (max-width:900px) {
@@ -177,10 +181,17 @@ h2 {
         height: 10em;
         width: auto;
     }
+    .imgshadow {
+        height: 10em;
+        width: auto;
+    }
 }
 
 @media screen and (max-width:630px) {
     .columnvideo {
+        display: none;
+    }
+    .imgshadow {
         display: none;
     }
 }
@@ -212,14 +223,12 @@ h2 {
 .formfloat {
     font-size: 1.5em;
     font-family: monospace;
-    display: block;
 }
 
 .submit {
-    width: 25%;
-    height: 25%;
+    width: 50%;
+    height: 100%;
     font-size: 1em;
-    float:right;
     transition: ease-in-out;
 }
 
@@ -229,14 +238,26 @@ h2 {
 }
 
 input {
-    width: 50%;
-    margin: .5em;
+    width: 20em;
     height: 3em;
     border-radius: 5px;
     background-color: rgba(128, 128, 128, 0.308);
     color: white;
     font-weight: bold;
     text-align: center;
+    margin-top:.5em;
+    margin-bottom: .5em;
+}
+
+.innerrow:after {
+    content:"";
+    display: table;
+    clear:both;
+}
+
+.innercolumn {
+    float: left;
+    width: 50%;
 }
 
 .grayscale {
@@ -248,5 +269,7 @@ footer {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:black;
 }
+
+
 
 
