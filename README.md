@@ -1,6 +1,8 @@
 # cartertweb
 Carter T's Project(s)
-This project was made by Carter T. 
+
+Project (1) - Portfolio Website
+
 Thank you to pexels.com for all of the stock photos and videos.
 
 This project was made with HTML, CSS, and soon Javascript.
