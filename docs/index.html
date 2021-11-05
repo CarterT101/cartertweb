@@ -39,6 +39,12 @@
             <p> Learn more about me below! </p>
         </div>
 
+        <div class="slideshow">
+
+
+
+        </div>
+
         <!--About-->
 
         <div id=about>
@@ -108,10 +114,73 @@
             </div>
             <div>
                 <div class="column2">
-                    <img class="imgfilter" src="img/pexels-zichuan-han-3315444.jpg" alt="Picture of Portland">
+                    <div class="innerrow2">
+                        <div class="innercolumn2">
+                            <h2 class="bounce"> languages </h2>
+                            <br>
+                            <p class="fix"> I am trained in HTML, CSS, and JavaScript! Soon I will be trained in SQL, Python, C#, and .NET.</p>
+
+
+
+                        </div>
+                        
+                        <div class="innercolumn3">
+
+                            <div id="slideshow">
+                                <div id="slideshowbackground">
+                                    <div id="slideshowcontainer">
+
+                                        <!--Slide 1-->
+                                        <div class="myslides fade">
+                                            <img class="slideshowimages" src="img/htmlcssjs.png" alt="HTML, CSS, JS">
+                                            <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+                                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                        </div>
+
+                                        <!--Slide 2-->
+                                        <div class="myslides fade">
+                                            <img class="slideshowimages" src="img/python.png" alt="Python">
+                                            <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+                                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                        </div>
+
+                                        <!--Slide 3-->
+                                        <div class="myslides fade">
+                                            <img class="slideshowimages" src="img/c.png" alt="C#">
+                                            <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+                                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
+
+        <!--Social Media-->
+
+        <div id="quicklinks">
+            <button onclick="openLinks()" class="popupbtn">social <br>media</button>
+                <div class="media-popup" id="mymedia">
+                    <div class="media-container linkrow">
+                        <div class="link">
+                            <a href="https://www.linkedin.com/in/carter-thurman-09576b222/" target="_blank"><img src="img/linkedin.png" style="width: 100%;"></a>
+                        </div>
+                        <div class="link">
+                            <a href="https://www.instagram.com/carter_thurman/" target="_blank"><img src="img/instagram.png" style="width:100%;"></a>
+                        </div>
+                        <br>
+                    <button type="button" class="btn" onclick="closeLinks()">close</button>
+                </div>
+            </div>
+        </div>
+
         <footer> This website was made by Carter T.  </footer> 
+
+        <script src="js/main.js"></script>
     </body>
 </html>
