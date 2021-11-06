@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    margin: 0%;
+    margin: 0;
 }
 
 h1 {
@@ -327,8 +327,6 @@ footer {
     right: .5vw;
     background-color: rgb(218,112,214);
     height: 10vw;
-    margin-left: auto;
-    margin-right: auto;
     transition: 3s;
 }
 
@@ -342,7 +340,6 @@ footer {
 }
 
 .media-container a {
-    margin: .5vw 0 .5vw 0;
     border: none;
 }
 
@@ -398,12 +395,12 @@ button:hover, .media-container .btn:hover{
 
 .innercolumn2 {
     float: left;
-    width: 30%;
+    width: 15%;
 }
 
 .innercolumn3 {
     float: left;
-    width: 70%;
+    width: 60%;
 }
 
 #slideshow {
@@ -418,8 +415,7 @@ button:hover, .media-container .btn:hover{
     width: 39.5vw; 
     height: auto; 
     padding-top: 4%; 
-    position: relative; 
-    margin:auto; 
+    position: relative;
 }
 
 .slideshowimages {
