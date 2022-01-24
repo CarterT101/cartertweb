@@ -383,10 +383,6 @@ button:hover, .media-container .btn:hover{
 
 /*Slideshow*/
 
-.fix {
-    font; 
-}
-
 .innerrow2:after {
     content:"";
     display: table;
@@ -395,27 +391,18 @@ button:hover, .media-container .btn:hover{
 
 .innercolumn2 {
     float: left;
-    width: 15%;
+    width: 45%;
 }
 
 .innercolumn3 {
     float: left;
-    width: 60%;
+    width: 50%;
 }
 
-#slideshow {
-    width: 10vw;
-}
-
-.myslides{
-    display: none; 
-}
-
-#slideshowbackground {
-    width: 39.5vw; 
-    height: auto; 
-    padding-top: 4%; 
-    position: relative;
+.innerrow3:after {
+    content:"";
+    display: table;
+    clear:both;
 }
 
 .slideshowimages {
